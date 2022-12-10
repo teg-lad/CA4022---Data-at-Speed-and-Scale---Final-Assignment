@@ -1,0 +1,12 @@
+name: ca4022_recommender
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - jupyter
+  - numpy
+  - seaborn
+  - pip:
+    - pyspark
